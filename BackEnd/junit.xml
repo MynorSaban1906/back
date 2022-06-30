@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="100" failures="0" errors="0" time="17.799">
+  <testsuite name="POST / Ver Ciudades" errors="0" failures="0" skipped="0" timestamp="2022-06-29T00:05:10" time="14.464" tests="1">
+    <testcase classname="POST / Ver Ciudades debería de responder un status 200, ciudades encontrado" name="POST / Ver Ciudades debería de responder un status 200, ciudades encontrado" time="0.501">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST / Ver reservas usuario" errors="0" failures="0" skipped="0" timestamp="2022-06-29T00:05:10" time="14.821" tests="2">
+    <testcase classname="POST / Ver reservas usuario debería de responder un status 200, Reservaciones encontradas " name="POST / Ver reservas usuario debería de responder un status 200, Reservaciones encontradas " time="0.885">
+    </testcase>
+    <testcase classname="POST / Ver reservas usuario debería de responder un status 400, reservas no encontradas encontrado" name="POST / Ver reservas usuario debería de responder un status 400, reservas no encontradas encontrado" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST / RegistroUSUARIO" errors="0" failures="0" skipped="0" timestamp="2022-06-29T00:05:10" time="14.897" tests="4">
+    <testcase classname="POST / RegistroUSUARIO debería de responder un status 200 el registro de usuario" name="POST / RegistroUSUARIO debería de responder un status 200 el registro de usuario" time="0.925">
+    </testcase>
+    <testcase classname="POST / RegistroUSUARIO debería de responder un status 400 el registro de usuario, correo incorrecto" name="POST / RegistroUSUARIO debería de responder un status 400 el registro de usuario, correo incorrecto" time="0.011">
+    </testcase>
+    <testcase classname="POST / RegistroUSUARIO debería de responder un status 400 el registro de usuario, contraseña incorrecta" name="POST / RegistroUSUARIO debería de responder un status 400 el registro de usuario, contraseña incorrecta" time="0.008">
+    </testcase>
+    <testcase classname="POST / RegistroUSUARIO debería de responder un status 400 el registro de usuario, Nombre vacio" name="POST / RegistroUSUARIO debería de responder un status 400 el registro de usuario, Nombre vacio" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST / LoginUser" errors="0" failures="0" skipped="0" timestamp="2022-06-29T00:05:10" time="14.97" tests="4">
+    <testcase classname="POST / LoginUser debería de responder un status 200 el inicio de sesion usuario" name="POST / LoginUser debería de responder un status 200 el inicio de sesion usuario" time="0.725">
+    </testcase>
+    <testcase classname="POST / LoginUser debería de responder un status 400 el Login de Usuario, correo incorrecto" name="POST / LoginUser debería de responder un status 400 el Login de Usuario, correo incorrecto" time="0.12">
+    </testcase>
+    <testcase classname="POST / LoginUser debería de responder un status 400 el login de usuario, contraseña incorrecta" name="POST / LoginUser debería de responder un status 400 el login de usuario, contraseña incorrecta" time="0.117">
+    </testcase>
+    <testcase classname="POST / LoginUser debería de responder un status 400 el login de usuario, Usuario No Existe" name="POST / LoginUser debería de responder un status 400 el login de usuario, Usuario No Existe" time="0.113">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST / Registro Reserva Habitacion" errors="0" failures="0" skipped="0" timestamp="2022-06-29T00:05:10" time="15.482" tests="11">
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 200 el registro de Reserva de Habitacion por usuario" name="POST / Registro Reserva Habitacion debería de responder un status 200 el registro de Reserva de Habitacion por usuario" time="0.675">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva Automoviles, Cantidad Dias incorrecto" name="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva Automoviles, Cantidad Dias incorrecto" time="0.011">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Automoviles, fecha incorrecto" name="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Automoviles, fecha incorrecto" time="0.006">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Automoviles, fecha salida incorrecto" name="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Automoviles, fecha salida incorrecto" time="0.007">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Automoviles, Usuario incorrecto" name="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Automoviles, Usuario incorrecto" time="0.008">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Automoviles, Automovil incorrecto" name="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Automoviles, Automovil incorrecto" time="0.01">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 200 la lectura de Automoviles" name="POST / Registro Reserva Habitacion debería de responder un status 200 la lectura de Automoviles" time="0.121">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 404 la lectura de reserva de Automovil, Reserva no encontrado" name="POST / Registro Reserva Habitacion debería de responder un status 404 la lectura de reserva de Automovil, Reserva no encontrado" time="0.118">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 200 la edicion de la reserva de automovil, reserva editado correctamente" name="POST / Registro Reserva Habitacion debería de responder un status 200 la edicion de la reserva de automovil, reserva editado correctamente" time="0.228">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 404 la lectura de Reservacion de Automovil a Eliminar, Reservacion no encontrado" name="POST / Registro Reserva Habitacion debería de responder un status 404 la lectura de Reservacion de Automovil a Eliminar, Reservacion no encontrado" time="0.114">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 200 la eliminación de Automoviles, Auto eliminado correctamente" name="POST / Registro Reserva Habitacion debería de responder un status 200 la eliminación de Automoviles, Auto eliminado correctamente" time="0.234">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST / Registro Vuelo" errors="0" failures="0" skipped="0" timestamp="2022-06-29T00:05:09" time="15.677" tests="12">
+    <testcase classname="POST / Registro Vuelo debería de responder un status 200 el registro de Vuelo" name="POST / Registro Vuelo debería de responder un status 200 el registro de Vuelo" time="0.549">
+    </testcase>
+    <testcase classname="POST / Registro Vuelo debería de responder un status 400 el registro de Vuelo, Fecha de vuelo incorrecta" name="POST / Registro Vuelo debería de responder un status 400 el registro de Vuelo, Fecha de vuelo incorrecta" time="0.011">
+    </testcase>
+    <testcase classname="POST / Registro Vuelo debería de responder un status 400 el registro de Automovil, Asientos disponibles incorrecto" name="POST / Registro Vuelo debería de responder un status 400 el registro de Automovil, Asientos disponibles incorrecto" time="0.006">
+    </testcase>
+    <testcase classname="POST / Registro Vuelo debería de responder un status 400 el registro de Automovil, Precio incorrecto" name="POST / Registro Vuelo debería de responder un status 400 el registro de Automovil, Precio incorrecto" time="0.007">
+    </testcase>
+    <testcase classname="POST / Registro Vuelo debería de responder un status 400 el registro de Automovil, IdServicio incorrecto" name="POST / Registro Vuelo debería de responder un status 400 el registro de Automovil, IdServicio incorrecto" time="0.006">
+    </testcase>
+    <testcase classname="POST / Registro Vuelo debería de responder un status 400 el registro de Automovil, IdCiudad incorrecta" name="POST / Registro Vuelo debería de responder un status 400 el registro de Automovil, IdCiudad incorrecta" time="0.078">
+    </testcase>
+    <testcase classname="POST / Registro Vuelo debería de responder un status 400 el registro de Vuelo, imagen incorrecta" name="POST / Registro Vuelo debería de responder un status 400 el registro de Vuelo, imagen incorrecta" time="0.009">
+    </testcase>
+    <testcase classname="POST / Registro Vuelo debería de responder un status 200 la lectura de Vuelos" name="POST / Registro Vuelo debería de responder un status 200 la lectura de Vuelos" time="0.12">
+    </testcase>
+    <testcase classname="POST / Registro Vuelo debería de responder un status 404 la lectura de Vuelos, Vuelo no encontrado" name="POST / Registro Vuelo debería de responder un status 404 la lectura de Vuelos, Vuelo no encontrado" time="0.117">
+    </testcase>
+    <testcase classname="POST / Registro Vuelo debería de responder un status 200 la edicion de Vuelos, Vuelo editado correctamente" name="POST / Registro Vuelo debería de responder un status 200 la edicion de Vuelos, Vuelo editado correctamente" time="0.224">
+    </testcase>
+    <testcase classname="POST / Registro Vuelo debería de responder un status 404 la lectura de Vuelo a Eliminar, Vuelo no encontrado" name="POST / Registro Vuelo debería de responder un status 404 la lectura de Vuelo a Eliminar, Vuelo no encontrado" time="0.113">
+    </testcase>
+    <testcase classname="POST / Registro Vuelo debería de responder un status 200 la eliminación de Vuelos, Vuelo eliminado correctamente" name="POST / Registro Vuelo debería de responder un status 200 la eliminación de Vuelos, Vuelo eliminado correctamente" time="0.237">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST / Registro Habitacion" errors="0" failures="0" skipped="0" timestamp="2022-06-29T00:05:10" time="15.664" tests="13">
+    <testcase classname="POST / Registro Habitacion debería de responder un status 200 el registro de Habitacion" name="POST / Registro Habitacion debería de responder un status 200 el registro de Habitacion" time="0.707">
+    </testcase>
+    <testcase classname="POST / Registro Habitacion debería de responder un status 400 el registro de Habitacion, Precio incorrecto" name="POST / Registro Habitacion debería de responder un status 400 el registro de Habitacion, Precio incorrecto" time="0.039">
+    </testcase>
+    <testcase classname="POST / Registro Habitacion debería de responder un status 400 el registro de Habitacion, Estado incorrecta" name="POST / Registro Habitacion debería de responder un status 400 el registro de Habitacion, Estado incorrecta" time="0.01">
+    </testcase>
+    <testcase classname="POST / Registro Habitacion debería de responder un status 400 el registro de Habitacion, Fecha Incorrecta incorrecto" name="POST / Registro Habitacion debería de responder un status 400 el registro de Habitacion, Fecha Incorrecta incorrecto" time="0.013">
+    </testcase>
+    <testcase classname="POST / Registro Habitacion debería de responder un status 400 el registro de Habitacion, cantidad personas incorrecto" name="POST / Registro Habitacion debería de responder un status 400 el registro de Habitacion, cantidad personas incorrecto" time="0.01">
+    </testcase>
+    <testcase classname="POST / Registro Habitacion debería de responder un status 400 el registro de Habitacion, imagen incorrecta" name="POST / Registro Habitacion debería de responder un status 400 el registro de Habitacion, imagen incorrecta" time="0.006">
+    </testcase>
+    <testcase classname="POST / Registro Habitacion debería de responder un status 400 el registro de Habitacion, Servicio incorrecta" name="POST / Registro Habitacion debería de responder un status 400 el registro de Habitacion, Servicio incorrecta" time="0.006">
+    </testcase>
+    <testcase classname="POST / Registro Habitacion debería de responder un status 400 el registro de Habitacion, imagen incorrecta" name="POST / Registro Habitacion debería de responder un status 400 el registro de Habitacion, imagen incorrecta" time="0.007">
+    </testcase>
+    <testcase classname="POST / Registro Habitacion debería de responder un status 200 la lectura de Habitaciones" name="POST / Registro Habitacion debería de responder un status 200 la lectura de Habitaciones" time="0.12">
+    </testcase>
+    <testcase classname="POST / Registro Habitacion debería de responder un status 404 la lectura de Habitaciones, Habitacion no encontrado" name="POST / Registro Habitacion debería de responder un status 404 la lectura de Habitaciones, Habitacion no encontrado" time="0.118">
+    </testcase>
+    <testcase classname="POST / Registro Habitacion debería de responder un status 200 la edicion de Habitacion, Habitacion editado correctamente" name="POST / Registro Habitacion debería de responder un status 200 la edicion de Habitacion, Habitacion editado correctamente" time="0.231">
+    </testcase>
+    <testcase classname="POST / Registro Habitacion debería de responder un status 404 la lectura de Automovil a Eliminar, Auto no encontrado" name="POST / Registro Habitacion debería de responder un status 404 la lectura de Automovil a Eliminar, Auto no encontrado" time="0.113">
+    </testcase>
+    <testcase classname="POST / Registro Habitacion debería de responder un status 200 la eliminación de Automoviles, Auto eliminado correctamente" name="POST / Registro Habitacion debería de responder un status 200 la eliminación de Automoviles, Auto eliminado correctamente" time="0.23">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST / RegistroTerciario" errors="0" failures="0" skipped="0" timestamp="2022-06-29T00:05:25" time="0.586" tests="3">
+    <testcase classname="POST / RegistroTerciario debería de responder un status 200 el registro de Servicio Terciario" name="POST / RegistroTerciario debería de responder un status 200 el registro de Servicio Terciario" time="0.016">
+    </testcase>
+    <testcase classname="POST / RegistroTerciario debería de responder un status 400 el registro de Servicio Terciario, correo incorrecto" name="POST / RegistroTerciario debería de responder un status 400 el registro de Servicio Terciario, correo incorrecto" time="0.019">
+    </testcase>
+    <testcase classname="POST / RegistroTerciario debería de responder un status 400 el registro de Servicio Terciario, contraseña incorrecta" name="POST / RegistroTerciario debería de responder un status 400 el registro de Servicio Terciario, contraseña incorrecta" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST / RegistroAutomovil" errors="0" failures="0" skipped="0" timestamp="2022-06-29T00:05:10" time="15.542" tests="13">
+    <testcase classname="POST / RegistroAutomovil debería de responder un status 200 el registro de Automovil" name="POST / RegistroAutomovil debería de responder un status 200 el registro de Automovil" time="0.629">
+    </testcase>
+    <testcase classname="POST / RegistroAutomovil debería de responder un status 400 el registro de Automovil, Marca incorrecto" name="POST / RegistroAutomovil debería de responder un status 400 el registro de Automovil, Marca incorrecto" time="0.034">
+    </testcase>
+    <testcase classname="POST / RegistroAutomovil debería de responder un status 400 el registro de Automovil, placa incorrecta" name="POST / RegistroAutomovil debería de responder un status 400 el registro de Automovil, placa incorrecta" time="0.01">
+    </testcase>
+    <testcase classname="POST / RegistroAutomovil debería de responder un status 400 el registro de Automovil, Modelo Incorrecto incorrecto" name="POST / RegistroAutomovil debería de responder un status 400 el registro de Automovil, Modelo Incorrecto incorrecto" time="0.008">
+    </testcase>
+    <testcase classname="POST / RegistroAutomovil debería de responder un status 400 el registro de Automovil, Precio incorrecto" name="POST / RegistroAutomovil debería de responder un status 400 el registro de Automovil, Precio incorrecto" time="0.01">
+    </testcase>
+    <testcase classname="POST / RegistroAutomovil debería de responder un status 400 el registro de Automovil, Fecha disponible incorrecta" name="POST / RegistroAutomovil debería de responder un status 400 el registro de Automovil, Fecha disponible incorrecta" time="0.013">
+    </testcase>
+    <testcase classname="POST / RegistroAutomovil debería de responder un status 400 el registro de Automovil, Servicio incorrecta" name="POST / RegistroAutomovil debería de responder un status 400 el registro de Automovil, Servicio incorrecta" time="0.008">
+    </testcase>
+    <testcase classname="POST / RegistroAutomovil debería de responder un status 400 el registro de Automovil, imagen incorrecta" name="POST / RegistroAutomovil debería de responder un status 400 el registro de Automovil, imagen incorrecta" time="0.01">
+    </testcase>
+    <testcase classname="POST / RegistroAutomovil debería de responder un status 200 la lectura de Automoviles" name="POST / RegistroAutomovil debería de responder un status 200 la lectura de Automoviles" time="0.125">
+    </testcase>
+    <testcase classname="POST / RegistroAutomovil debería de responder un status 404 la lectura de Automoviles, Auto no encontrado" name="POST / RegistroAutomovil debería de responder un status 404 la lectura de Automoviles, Auto no encontrado" time="0.121">
+    </testcase>
+    <testcase classname="POST / RegistroAutomovil debería de responder un status 200 la edicion de Automoviles, Auto editado correctamente" name="POST / RegistroAutomovil debería de responder un status 200 la edicion de Automoviles, Auto editado correctamente" time="0.235">
+    </testcase>
+    <testcase classname="POST / RegistroAutomovil debería de responder un status 404 la lectura de Automovil a Eliminar, Auto no encontrado" name="POST / RegistroAutomovil debería de responder un status 404 la lectura de Automovil a Eliminar, Auto no encontrado" time="0.113">
+    </testcase>
+    <testcase classname="POST / RegistroAutomovil debería de responder un status 200 la eliminación de Automoviles, Auto eliminado correctamente" name="POST / RegistroAutomovil debería de responder un status 200 la eliminación de Automoviles, Auto eliminado correctamente" time="0.235">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST / Registro Reserva Vuelo" errors="0" failures="0" skipped="0" timestamp="2022-06-29T00:05:10" time="15.676" tests="11">
+    <testcase classname="POST / Registro Reserva Vuelo debería de responder un status 200 el registro de Reserva de Vuelo por usuario" name="POST / Registro Reserva Vuelo debería de responder un status 200 el registro de Reserva de Vuelo por usuario" time="0.743">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Vuelo debería de responder un status 400 el registro de Reserva Vuelo, Cantidad Asientos incorrecto" name="POST / Registro Reserva Vuelo debería de responder un status 400 el registro de Reserva Vuelo, Cantidad Asientos incorrecto" time="0.013">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Vuelo debería de responder un status 400 el registro de Reserva de Vuelo, fecha incorrecto" name="POST / Registro Reserva Vuelo debería de responder un status 400 el registro de Reserva de Vuelo, fecha incorrecto" time="0.054">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Vuelo debería de responder un status 400 el registro de Reserva de Vuelo, fecha salida incorrecto" name="POST / Registro Reserva Vuelo debería de responder un status 400 el registro de Reserva de Vuelo, fecha salida incorrecto" time="0.015">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Vuelo debería de responder un status 400 el registro de Reserva de Vuelo, Usuario incorrecto" name="POST / Registro Reserva Vuelo debería de responder un status 400 el registro de Reserva de Vuelo, Usuario incorrecto" time="0.01">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Vuelo debería de responder un status 400 el registro de Reserva de Vuelo, Vuelo incorrecto" name="POST / Registro Reserva Vuelo debería de responder un status 400 el registro de Reserva de Vuelo, Vuelo incorrecto" time="0.008">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Vuelo debería de responder un status 200 la lectura de Vuelos" name="POST / Registro Reserva Vuelo debería de responder un status 200 la lectura de Vuelos" time="0.155">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Vuelo debería de responder un status 404 la lectura de reserva de Vuelo, Reserva no encontrado" name="POST / Registro Reserva Vuelo debería de responder un status 404 la lectura de reserva de Vuelo, Reserva no encontrado" time="0.123">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Vuelo debería de responder un status 200 la edicion de la reserva de Vuelo, reserva editado correctamente" name="POST / Registro Reserva Vuelo debería de responder un status 200 la edicion de la reserva de Vuelo, reserva editado correctamente" time="0.228">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Vuelo debería de responder un status 404 la lectura de Reservacion de Vuelo a Eliminar, Reservacion no encontrado" name="POST / Registro Reserva Vuelo debería de responder un status 404 la lectura de Reservacion de Vuelo a Eliminar, Reservacion no encontrado" time="0.116">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Vuelo debería de responder un status 200 la eliminación de Vuelo, Auto eliminado correctamente" name="POST / Registro Reserva Vuelo debería de responder un status 200 la eliminación de Vuelo, Auto eliminado correctamente" time="0.238">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST / Registro Reserva Habitacion" errors="0" failures="0" skipped="0" timestamp="2022-06-29T00:05:10" time="15.574" tests="11">
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 200 el registro de Reserva de Habitacion por usuario" name="POST / Registro Reserva Habitacion debería de responder un status 200 el registro de Reserva de Habitacion por usuario" time="0.69">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva Habitacion, Cantidad Habitaciones incorrecto" name="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva Habitacion, Cantidad Habitaciones incorrecto" time="0.017">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Habitacion, fecha incorrecto" name="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Habitacion, fecha incorrecto" time="0.059">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Habitacion, fecha salida incorrecto" name="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Habitacion, fecha salida incorrecto" time="0.009">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Habitacion, Usuario incorrecto" name="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Habitacion, Usuario incorrecto" time="0.012">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Habitacion, Habitacion incorrecto" name="POST / Registro Reserva Habitacion debería de responder un status 400 el registro de Reserva de Habitacion, Habitacion incorrecto" time="0.008">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 200 la lectura de habitaciones" name="POST / Registro Reserva Habitacion debería de responder un status 200 la lectura de habitaciones" time="0.128">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 404 la lectura de reserva de habitacion, Reserva no encontrado" name="POST / Registro Reserva Habitacion debería de responder un status 404 la lectura de reserva de habitacion, Reserva no encontrado" time="0.121">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 200 la edicion de la reserva, Resenia editado correctamente" name="POST / Registro Reserva Habitacion debería de responder un status 200 la edicion de la reserva, Resenia editado correctamente" time="0.226">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 404 la lectura de Reservacion de hotel a Eliminar, Reservacion no encontrado" name="POST / Registro Reserva Habitacion debería de responder un status 404 la lectura de Reservacion de hotel a Eliminar, Reservacion no encontrado" time="0.116">
+    </testcase>
+    <testcase classname="POST / Registro Reserva Habitacion debería de responder un status 200 la eliminación de Automoviles, Auto eliminado correctamente" name="POST / Registro Reserva Habitacion debería de responder un status 200 la eliminación de Automoviles, Auto eliminado correctamente" time="0.254">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST / Registro Resenia" errors="0" failures="0" skipped="0" timestamp="2022-06-29T00:05:10" time="15.716" tests="11">
+    <testcase classname="POST / Registro Resenia debería de responder un status 200 el registro de Resenia" name="POST / Registro Resenia debería de responder un status 200 el registro de Resenia" time="0.556">
+    </testcase>
+    <testcase classname="POST / Registro Resenia debería de responder un status 400 el registro de Resenia, IdServicio incorrecto" name="POST / Registro Resenia debería de responder un status 400 el registro de Resenia, IdServicio incorrecto" time="0.036">
+    </testcase>
+    <testcase classname="POST / Registro Resenia debería de responder un status 400 el registro de Resenia, Descripcion incorrecta" name="POST / Registro Resenia debería de responder un status 400 el registro de Resenia, Descripcion incorrecta" time="0.006">
+    </testcase>
+    <testcase classname="POST / Registro Resenia debería de responder un status 400 el registro de Resenia, IdUsuario incorrecto" name="POST / Registro Resenia debería de responder un status 400 el registro de Resenia, IdUsuario incorrecto" time="0.014">
+    </testcase>
+    <testcase classname="POST / Registro Resenia debería de responder un status 200 la lectura de Resenia" name="POST / Registro Resenia debería de responder un status 200 la lectura de Resenia" time="0.124">
+    </testcase>
+    <testcase classname="POST / Registro Resenia debería de responder un status 404 la lectura de Resenia, Resenia no encontrado" name="POST / Registro Resenia debería de responder un status 404 la lectura de Resenia, Resenia no encontrado" time="0.114">
+    </testcase>
+    <testcase classname="POST / Registro Resenia debería de responder un status 200 la edicion de Resenia, Resenia editado correctamente" name="POST / Registro Resenia debería de responder un status 200 la edicion de Resenia, Resenia editado correctamente" time="0.226">
+    </testcase>
+    <testcase classname="POST / Registro Resenia debería de responder un status 404 la lectura de Resenia a Eliminar, Resenia no encontrado" name="POST / Registro Resenia debería de responder un status 404 la lectura de Resenia a Eliminar, Resenia no encontrado" time="0.108">
+    </testcase>
+    <testcase classname="POST / Registro Resenia debería de responder un status 200 la eliminación de Automoviles, Auto eliminado correctamente" name="POST / Registro Resenia debería de responder un status 200 la eliminación de Automoviles, Auto eliminado correctamente" time="0.232">
+    </testcase>
+    <testcase classname="POST / Registro Resenia debería de responder un status 404 la lectura de Resenia por servicio, Resenia no encontrado" name="POST / Registro Resenia debería de responder un status 404 la lectura de Resenia por servicio, Resenia no encontrado" time="0.125">
+    </testcase>
+    <testcase classname="POST / Registro Resenia debería de responder un status 200 la lectura de Resenia por servicio, Resenia encontrada" name="POST / Registro Resenia debería de responder un status 200 la lectura de Resenia por servicio, Resenia encontrada" time="0.114">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST / Ver Perfil" errors="0" failures="0" skipped="0" timestamp="2022-06-29T00:05:24" time="1.352" tests="4">
+    <testcase classname="POST / Ver Perfil debería de responder un status 400, usuario no encontrado" name="POST / Ver Perfil debería de responder un status 400, usuario no encontrado" time="0.437">
+    </testcase>
+    <testcase classname="POST / Ver Perfil debería de responder un status 200 usuario Encontrado" name="POST / Ver Perfil debería de responder un status 200 usuario Encontrado" time="0.116">
+    </testcase>
+    <testcase classname="POST / Ver Perfil debería de responder un status 200 usuario Editado exitosamente" name="POST / Ver Perfil debería de responder un status 200 usuario Editado exitosamente" time="0.222">
+    </testcase>
+    <testcase classname="POST / Ver Perfil debería de responder un status 400 usuario no encontrado para editar" name="POST / Ver Perfil debería de responder un status 400 usuario no encontrado para editar" time="0.109">
+    </testcase>
+  </testsuite>
+</testsuites>
