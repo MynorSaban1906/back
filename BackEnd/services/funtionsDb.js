@@ -10,7 +10,11 @@ const insertUsers = async (Name, Date, Email, Password, TypeUser) => {
 };
 
 const searchUser = async (connection, Email) => new Promise((resolve, reject) => {
-	const sql = `Select * from Usuario where Correo='${Email}'`;
+	const sql = `Select * from Usuario where Correo='${Email}'
+	union 
+	Select Id_Servicio as Id_Usuario, Nombre as Nombre, '01/01/2000' as FechaNacimiento, Correo as Correo , 
+	Pass as Pass, '3' as TipoUsuario_Id_Tipo
+	from Servicio where Correo = '${Email}'`;
 	connection.query(sql, (error, results) => {
 		if (error) return reject(error);
 		const data = { results };
